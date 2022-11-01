@@ -14,7 +14,7 @@ int main() {
   cout << "Enter PID: ";
   cin >> PID;
 
-  HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, 32188);
+  HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, PID);
   if (hProcess == NULL) { // Failed to get a handle
     cout << "OpenProcess failed. GetLastError = " << dec << GetLastError() << endl;
     system("pause");
