@@ -18,7 +18,7 @@ Press ENTER to print again
 ```
 The output contains variables of different data types and their corresponding memory adresses. There are also a few chained pointers.
 
-Next, launch either the reader or writer application in a terminal and follow the prompts. You will either be able to read what is in any memory adress or write to a memory adress and view the updated output in the first terminal by hitting ENTER.
+Next, launch either the reader or writer application in a terminal and follow the prompts. You will either be able to read what is in any memory address or write to a memory address and view the updated output in the first terminal by hitting ENTER.
 ```
 ❯ .\dummy.exe
 Process ID: 6200
